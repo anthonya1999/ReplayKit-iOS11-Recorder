@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929B99581F22B87D00823158 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B99571F22B87D00823158 /* AppDelegate.m */; };
+		929B995B1F22B87D00823158 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B995A1F22B87D00823158 /* ViewController.m */; };
+		929B995E1F22B87D00823158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929B995C1F22B87D00823158 /* Main.storyboard */; };
+		929B99601F22B87D00823158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929B995F1F22B87D00823158 /* Assets.xcassets */; };
+		929B99631F22B87D00823158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929B99611F22B87D00823158 /* LaunchScreen.storyboard */; };
+		929B99661F22B87D00823158 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B99651F22B87D00823158 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		929B99531F22B87D00823158 /* ReplayKit-iOS11-Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReplayKit-iOS11-Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929B99561F22B87D00823158 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929B99571F22B87D00823158 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929B99591F22B87D00823158 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		929B995A1F22B87D00823158 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		929B995D1F22B87D00823158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929B995F1F22B87D00823158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929B99621F22B87D00823158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		929B99641F22B87D00823158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929B99651F22B87D00823158 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929B99501F22B87D00823158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929B994A1F22B87D00823158 = {
+			isa = PBXGroup;
+			children = (
+				929B99551F22B87D00823158 /* ReplayKit-iOS11-Recorder */,
+				929B99541F22B87D00823158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929B99541F22B87D00823158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929B99531F22B87D00823158 /* ReplayKit-iOS11-Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929B99551F22B87D00823158 /* ReplayKit-iOS11-Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				929B99561F22B87D00823158 /* AppDelegate.h */,
+				929B99571F22B87D00823158 /* AppDelegate.m */,
+				929B99591F22B87D00823158 /* ViewController.h */,
+				929B995A1F22B87D00823158 /* ViewController.m */,
+				929B995C1F22B87D00823158 /* Main.storyboard */,
+				929B99611F22B87D00823158 /* LaunchScreen.storyboard */,
+				929B996D1F22B89A00823158 /* Supporting Files */,
+			);
+			path = "ReplayKit-iOS11-Recorder";
+			sourceTree = "<group>";
+		};
+		929B996D1F22B89A00823158 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929B995F1F22B87D00823158 /* Assets.xcassets */,
+				929B99641F22B87D00823158 /* Info.plist */,
+				929B99651F22B87D00823158 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929B99521F22B87D00823158 /* ReplayKit-iOS11-Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929B99691F22B87D00823158 /* Build configuration list for PBXNativeTarget "ReplayKit-iOS11-Recorder" */;
+			buildPhases = (
+				929B994F1F22B87D00823158 /* Sources */,
+				929B99501F22B87D00823158 /* Frameworks */,
+				929B99511F22B87D00823158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReplayKit-iOS11-Recorder";
+			productName = "ReplayKit-iOS11-Recorder";
+			productReference = 929B99531F22B87D00823158 /* ReplayKit-iOS11-Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929B994B1F22B87D00823158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Anthony Agatiello";
+				TargetAttributes = {
+					929B99521F22B87D00823158 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 929B994E1F22B87D00823158 /* Build configuration list for PBXProject "ReplayKit-iOS11-Recorder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929B994A1F22B87D00823158;
+			productRefGroup = 929B99541F22B87D00823158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929B99521F22B87D00823158 /* ReplayKit-iOS11-Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929B99511F22B87D00823158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B99631F22B87D00823158 /* LaunchScreen.storyboard in Resources */,
+				929B99601F22B87D00823158 /* Assets.xcassets in Resources */,
+				929B995E1F22B87D00823158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929B994F1F22B87D00823158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B995B1F22B87D00823158 /* ViewController.m in Sources */,
+				929B99661F22B87D00823158 /* main.m in Sources */,
+				929B99581F22B87D00823158 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		929B995C1F22B87D00823158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929B995D1F22B87D00823158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929B99611F22B87D00823158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929B99621F22B87D00823158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929B99671F22B87D00823158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		929B99681F22B87D00823158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929B996A1F22B87D00823158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9QKLXG4845;
+				INFOPLIST_FILE = "ReplayKit-iOS11-Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adatech.ReplayKit-iOS11-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7dfeb21c-ddf3-461d-a614-634a854e118f";
+				PROVISIONING_PROFILE_SPECIFIER = "ADA Tech Apps (Development)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929B996B1F22B87D00823158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9QKLXG4845;
+				INFOPLIST_FILE = "ReplayKit-iOS11-Recorder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adatech.ReplayKit-iOS11-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eb369635-16dd-4c9e-a730-f03a08ec479c";
+				PROVISIONING_PROFILE_SPECIFIER = "ADA Tech Apps";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929B994E1F22B87D00823158 /* Build configuration list for PBXProject "ReplayKit-iOS11-Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929B99671F22B87D00823158 /* Debug */,
+				929B99681F22B87D00823158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929B99691F22B87D00823158 /* Build configuration list for PBXNativeTarget "ReplayKit-iOS11-Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929B996A1F22B87D00823158 /* Debug */,
+				929B996B1F22B87D00823158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929B994B1F22B87D00823158 /* Project object */;
+}
